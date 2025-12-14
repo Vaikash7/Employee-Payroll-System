@@ -1,18 +1,20 @@
-## Getting Started
+# Employee Payroll Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A console-based Java application to manage employee payroll details using JDBC and MySQL.
 
-## Folder Structure
+## Features
+- Add, update, delete, and search employees
+- Salary calculation with deductions
+- MySQL database integration using JDBC
+- Layered architecture (Model, DAO, Service)
 
-The workspace contains two folders by default, where:
+## Technologies Used
+- Java
+- JDBC
+- MySQL
+- SQL
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## How to Run
+1. Import the project into any Java IDE
+2. Configure MySQL database and update DB credentials
+3. Run Main.java
